@@ -1,0 +1,18 @@
+tasks = ("Acabar com os Asteroides",
+         "Ajustar a Potência do Motor",
+         "Arrumar Fiação",
+         "Calibrar o Distribuidor",
+         "Desviar a Energia para Sala",
+         "Desbloquear Colectores",
+         "Esvaziar Escotilha",
+         "Esvaziar o Lixo",
+         "Encher os Motores",
+         "Estabilizar a Direção",
+         "Enviar Scan",
+         "Ligar Reator",
+         "Limpe o Filtro do O2",
+         "Inspecionar Amostra",
+         "Mapear Rota"
+         "Passar o Cartão",
+         "Reativar Escudos",
+         "Transferir Dados")
