@@ -12,7 +12,7 @@ tasks = ("Acabar com os Asteroides",
          "Ligar Reator",
          "Limpe o Filtro do O2",
          "Inspecionar Amostra",
-         "Mapear Rota"
+         "Mapear Rota",
          "Passar o Cartão",
          "Reativar Escudos",
          "Transferir Dados")
