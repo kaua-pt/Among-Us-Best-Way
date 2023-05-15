@@ -4,19 +4,24 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link href="{{ url_for('static',filename='base.css') }}" rel="stylesheet" type="text/css">
+    <link href="{{ url_for('static',filename='css/base.css') }}" rel="stylesheet" type="text/css">
     <title>AmongRun</title>
 </head>
 <body>
   <form class="nav">
-        <span>AmongRun</span>
-        {%for task in tasks%}
-          <div>
-            <input type="checkbox" id = {{task}} name = {{task}}>
-            <label for={{task}}>{{task}}</label>
-          </div>
-        {% endfor %}
-        <button>Traçar rota</button>
+    <div class="wrapper">
+      <span class ="title">AmongRun</span>
+      {%for task in tasks%}
+         <div>
+          <label class="container" for={{task}}>
+            <input type="checkbox" id = {{task}} name = {{task}} >
+            <div class="checkmark"></div>
+            <label class="escrita" for={{task}}>{{task}}</label>
+          </label>
+        </div>
+      {% endfor %}
+      <button class ="bn62">Traçar rota</button>
+    </div>
   </form>
 </body>
 </html>
