@@ -8,21 +8,8 @@
     <title>AmongRun</title>
 </head>
 <body>
-  <form class="nav">
-    <div class="wrapper">
-      <span class ="title">AmongRun</span>
-      {%for task in tasks%}
-         <div>
-          <label class="container" for={{task}}>
-            <input type="checkbox" id = {{task}} name = {{task}} >
-            <div class="checkmark"></div>
-            <label class="escrita" for={{task}}>{{task}}</label>
-          </label>
-        </div>
-      {% endfor %}
-      <button class ="bn62">Traçar rota</button>
-    </div>
-  </form>
-  {% block content %}{% endblock %}
+  <div >
+      {% block content %}{% endblock %}
+  </div>
 </body>
 </html>
