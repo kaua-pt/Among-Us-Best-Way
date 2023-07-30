@@ -6,17 +6,14 @@ views = Blueprint('views', __name__)
 
 @views.route('/')
 def home():
-    return render_template("home.html", tasks=tasks)
+    return render_template("home.html")
 
 
 @views.route('/select')
 def select():
-    return render_template("select.html")
+    return render_template("select.html", tasks=tasks)
 
 
 @views.route('/map')
 def map():
-    for element in tasks:
-        if (req):
-            print(req.form['id'])
     return render_template("map.html")

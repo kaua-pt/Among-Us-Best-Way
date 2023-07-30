@@ -1,1 +1,14 @@
 {% extends "base.html" %}
+{% block content%}
+<link href="{{ url_for('static',filename='css/select.css') }}" rel="stylesheet" type="text/css">
+<div class="select">
+    <div class="box">
+        {%for task in tasks%}
+            <div class="box2">
+                <input type="checkbox" id = {{task}} name = {{task}} >
+                <h1 class="elements">{{task}}</h1>
+            </div>
+        {% endfor %}
+    </div>
+</div>
+{% endblock %}

@@ -1,0 +1,24 @@
+.select{
+    background-size: cover;
+    background-image: url(../img/dead.jpg);
+    display: flex;
+    justify-content: center;
+}
+
+.box{
+    width: 50%; 
+    height: 50%;
+    border-radius: 20px;
+    position: absolute;
+    top: 25%;
+    background-color: #aaaaaa;
+    box-shadow: 4px 4px 6px #918977;
+    display: flex;
+    margin: 5px;
+    flex-direction: column;
+    overflow-y: scroll;
+}
+
+.elements{
+    
+}
