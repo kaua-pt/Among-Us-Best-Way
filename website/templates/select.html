@@ -3,15 +3,19 @@
 <link href="{{ url_for('static',filename='css/select.css') }}" rel="stylesheet" type="text/css">
 <div class="select">
     <div class="box">
-        {%for task in tasks%}
+        <form action="/map" method="post">
+            {%for task in tasks%}
             <div class="box2">
                 <div class="checkbox-wrapper-8">
-                    <input class="tgl tgl-skewed" id="{{task}}" type="checkbox"/>
+                    <input class="tgl tgl-skewed" id="{{task}}" name="{{task}}" type="checkbox"/>
                     <label class="tgl-btn" data-tg-off="OFF" data-tg-on="ON" for="{{task}}"></label>
-                  </div>
+                </div>
                 <h1 class="elements">{{task}}</h1>
             </div>
-        {% endfor %}
+            {% endfor %}
+            <button class="button" type="submit"></button>
+        </form>
     </div>
+
 </div>
 {% endblock %}

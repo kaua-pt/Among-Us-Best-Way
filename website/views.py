@@ -14,6 +14,6 @@ def select():
     return render_template("select.html", tasks=tasks)
 
 
-@views.route('/map')
+@views.route('/map', methods=['POST', 'GET'])
 def map():
     return render_template("map.html")

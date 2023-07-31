@@ -1,1 +1,5 @@
 {% extends "base.html" %}
+{% block content %}
+<link href="{{ url_for('static',filename='css/map.css') }}" rel="stylesheet" type="text/css">
+<div class="map"></div>
+{% endblock %}

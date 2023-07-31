@@ -1,0 +1,6 @@
+.map{
+    background-size: cover;
+    background-image: url(../img/mapa.jpg);
+    display: flex;
+    justify-content: center;
+}
