@@ -1,4 +1,5 @@
 from flask import Flask
+from .graph.GerarGrafo import gerarGrafo
 
 
 def create_app():
@@ -7,5 +8,5 @@ def create_app():
 
     from .views import views
     app.register_blueprint(views, url_prefix='/')
-
+    G = gerarGrafo()
     return app
