@@ -1,6 +1,25 @@
 .map{
     background-size: cover;
-    background-image: url(../img/mapa.jpg);
+    background-size: contain;
+    background-position-x: center;
+    background-image: url(../img/mapa.png);
     display: flex;
+
+}
+
+.voltar{
+    width: 10%;
+    height: 10%;
+    margin: 15px;
+    border-radius: 10px;
+    background-color: #aaaaaa;
+    box-shadow: 4px 4px 6px #918977;
+    text-decoration: none;
+    display: flex;
+    align-items: center;
     justify-content: center;
+    text-shadow: none;
+    color: black;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    font-size: large;
 }

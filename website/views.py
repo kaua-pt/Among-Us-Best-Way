@@ -16,4 +16,6 @@ def select():
 
 @views.route('/map', methods=['POST', 'GET'])
 def map():
+    tasks = list(req.form.keys())
+
     return render_template("map.html")

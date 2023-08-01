@@ -2,8 +2,8 @@
 {% block content%}
 <link href="{{ url_for('static',filename='css/select.css') }}" rel="stylesheet" type="text/css">
 <div class="select">
-    <div class="box">
-        <form action="/map" method="post">
+    <form class="formul"action="/map" method="post">
+        <div class="box">
             {%for task in tasks%}
             <div class="box2">
                 <div class="checkbox-wrapper-8">
@@ -13,9 +13,10 @@
                 <h1 class="elements">{{task}}</h1>
             </div>
             {% endfor %}
+        </div>
+        <div class="boxbutton">
             <button class="button" type="submit"></button>
-        </form>
-    </div>
-
+        </div>
+    </form>
 </div>
 {% endblock %}

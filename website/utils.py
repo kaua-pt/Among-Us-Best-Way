@@ -16,3 +16,19 @@ tasks = ("Acabar com os Asteroides",
          "Passar o Cartão",
          "Reativar Escudos",
          "Transferir Dados")
+
+places = {"Cafeteria": {"x": 0, "y": 0},
+          "Armas": {"x": 0, "y": 0},
+          "O2": {"x": 0, "y": 0},
+          "Navegação": {"x": 0, "y": 0},
+          "Escudos": {"x": 0, "y": 0},
+          "Comunicação": {"x": 0, "y": 0},
+          "Armazem": {"x": 0, "y": 0},
+          "Admin": {"x": 0, "y": 0},
+          "Elétrica": {"x": 0, "y": 0},
+          "Reator": {"x": 0, "y": 0},
+          "Ala médica": {"x": 0, "y": 0},
+          "Segurança": {"x": 0, "y": 0},
+          "Turbina Superior": {"x": 0, "y": 0},
+          "Turbina Inferior": {"x": 0, "y": 0}
+          }
