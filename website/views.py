@@ -1,5 +1,6 @@
 from flask import Blueprint, render_template, request as req
 from .utils import tasks
+from .graph.GerarGrafo import gerarGrafo
 
 views = Blueprint('views', __name__)
 
@@ -16,6 +17,19 @@ def select():
 
 @views.route('/map', methods=['POST', 'GET'])
 def map():
-    tasks = list(req.form.keys())
+    time = 0
+    G = gerarGrafo()
+    tasksE = list(req.form.keys())
 
-    return render_template("map.html")
+    # tempo de realização das tasks
+    for taskE in tasksE:
+        if (taskE in tasks):
+            print(taskE)
+            time += tasks[taskE]['tempo']
+
+    # tempo ótimo para percorrer as tasks
+    #alg = dijkstra(G, taskE[0], tasksE)
+    # print(alg)
+    #time += alg['time']
+
+    return render_template("map.html", time=time)

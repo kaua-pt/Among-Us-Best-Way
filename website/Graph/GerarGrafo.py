@@ -60,4 +60,5 @@ def gerarGrafo():
     G.add_edge("O2", "Armas", peso=0)
     G.add_edge("O2", "Navegação", peso=0)
     G.add_edge("O2", "Escudos", peso=0)
+
     return G
