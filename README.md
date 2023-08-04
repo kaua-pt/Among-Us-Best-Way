@@ -25,7 +25,12 @@ O aplicativo é construido com:</br>
 ![Tecnologias](https://skillicons.dev/icons?i=python,html,css,flask)
 
 ## 💢 Aplicabilidade
- 🚧 Ainda em construção 🚧
+Caso você necessite de um caminho otimizado para a sua partida de Among Us é simples:
+Clique no botão:
+![Inicio](/website)
+Selecione suas tasks e clique no botão novamente:
+
+Será dado a sequência de onde você deve ir com o tempo que você irá gastar em segundos:
 ## :dash: Licença
 
 Distributed under the MIT License. See `LICENSE.txt` for more information.
