@@ -24,4 +24,15 @@ class Dijkstra:
                     menorNo = no
                 elif menorCaminho[no] < menorCaminho[menorNo]:
                     menorNo = no
-        vizinhos = self.grafo
+
+            vizinhos = self.grafo.neighbors(menorNo)
+
+            for vizinho in vizinhos:
+                tentativa = menorCaminho[menorNo] + \
+                    self.grafo.get_edge_data(menorNo, vizinho)['peso']
+                if tentativa < menorCaminho[vizinho]:
+                    menorCaminho[vizinho] = tentativa
+                    nosAnteriores[vizinho] = menorNo
+
+            nosNaoVisitados.remove(menorNo)
+        return menorCaminho
