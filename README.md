@@ -26,11 +26,20 @@ O aplicativo é construido com:</br>
 
 ## 💢 Aplicabilidade
 Caso você necessite de um caminho otimizado para a sua partida de Among Us é simples:
-Clique no botão:
-![Inicio](/website)
-Selecione suas tasks e clique no botão novamente:
+</br>
+### Clique no botão:
+![Inicio](/website/static/img/Mainpage.PNG)
+<p>Imagem 2: Página principal</p>
 
-Será dado a sequência de onde você deve ir com o tempo que você irá gastar em segundos:
+### Selecione suas tasks e clique no botão novamente:
+
+![Seleção](/website/static/img/Escolha.PNG)
+
+<p>Imagem 3: Seleção das tasks</p>
+
+### Será dado a sequência de onde você deve ir com o tempo que você irá gastar em segundos:</br>
+🚧 Tela sendo construída 🚧
+</br>
 ## :dash: Licença
 
 Distributed under the MIT License. See `LICENSE.txt` for more information.
