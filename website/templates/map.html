@@ -3,7 +3,11 @@
 <link href="{{ url_for('static',filename='css/map.css') }}" rel="stylesheet" type="text/css">
 <div class="map">
     <a class="voltar" href="/select">Voltar</a>
-    <div class="tempo">Tempo:     {{time}} Segundos</div>
+    <div class="tempo">Tempo:{{time}} Segundos</div>
+    {% for place in path %}
+        <div class="caminho div-show Cafeteria ">{{path.index(place) + 1}}</div>
+    {% endfor %}
+    <div class="caminho div-show Reator ">4</div>
 </div>
 
 {% endblock %}
