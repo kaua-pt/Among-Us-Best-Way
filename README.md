@@ -27,17 +27,17 @@ O aplicativo é construido com:</br>
 ## 💢 Aplicabilidade
 Caso você necessite de um caminho otimizado para a sua partida de Among Us é simples:
 </br>
-### Clique no botão:
+### 1 - Clique no botão:
 ![Inicio](/website/static/img/Mainpage.PNG)
 <p>Imagem 2: Página principal</p>
 
-### Selecione suas tasks e clique no botão novamente:
+### 2 - Selecione suas tasks e clique no botão novamente:
 
 ![Seleção](/website/static/img/Escolha.PNG)
 
 <p>Imagem 3: Seleção das tasks</p>
 
-### Será dado a sequência de onde você deve ir com o tempo que você irá gastar em segundos:</br>
+### 3 - Será dado a sequência de onde você deve ir com o tempo que você irá gastar em segundos:</br>
 
 ![Caminho](/website/static/img/Tela.PNG)
 
