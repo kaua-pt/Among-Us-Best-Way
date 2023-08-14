@@ -44,6 +44,7 @@ Caso você necessite de um caminho otimizado para a sua partida de Among Us é s
 <p>Imagem 4: Tela contendo o caminho</p>
 
 </br>
+
 ## :dash: Licença
 
 Distributed under the MIT License. See `LICENSE.txt` for more information.
