@@ -4,10 +4,40 @@
 <div class="map">
     <a class="voltar" href="/select">Voltar</a>
     <div class="tempo">Tempo:{{time}} Segundos</div>
-    {% for place in path %}
-        <div class="caminho div-show Cafeteria ">{{path.index(place) + 1}}</div>
-    {% endfor %}
-    <div class="caminho div-show Reator ">4</div>
+    {% if "Cafeteria" in path %}
+        <div class="caminho div-show Cafeteria ">{{path.index("Cafeteria") + 1}}</div>
+    {% endif %}
+    {% if "Admin" in path %}
+        <div class="caminho div-show Admin ">{{path.index("Admin") + 1}}</div>
+    {% endif %}
+    {% if "Armazem" in path %}
+        <div class="caminho div-show Armazem ">{{path.index("Armazem") + 1}}</div>
+    {% endif %}
+    {% if "Elétrica" in path %}
+        <div class="caminho div-show Elétrica ">{{path.index("Elétrica") + 1}}</div>
+    {% endif %}
+    {% if "Turbina Inferior" in path %}
+        <div class="caminho div-show TurbinaInferior ">{{path.index("Turbina Inferior") + 1}}</div>
+    {% endif %}
+    {% if "Reator" in path %}
+        <div class="caminho div-show Reator ">{{path.index("Reator") + 1}}</div>
+    {% endif %}
+    {% if "Ala médica" in path %}
+        <div class="caminho div-show Alamédica ">{{path.index("Ala médica") + 1}}</div>
+    {% endif %}
+    {% if "Armas" in path %}
+        <div class="caminho div-show Armas ">{{path.index("Armas") + 1}}</div>
+    {% endif %}
+    {% if "O2" in path %}
+        <div class="caminho div-show O2 ">{{path.index("O2") + 1}}</div>
+    {% endif %}
+    {% if "Navegação" in path %}
+        <div class="caminho div-show Navegação ">{{path.index("Navegação") + 1}}</div>
+    {% endif %}
+    {% if "Escudos" in path %}
+        <div class="caminho div-show Escudos ">{{path.index("Escudos") + 1}}</div>
+    {% endif %}
+
 </div>
 
 {% endblock %}

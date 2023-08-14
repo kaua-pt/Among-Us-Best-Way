@@ -42,7 +42,9 @@ def map():
     for i in range(len(taskPlace)):
         menor = ""
         menorPeso = sys.maxsize
-        path.append(begin)
+
+        if begin not in path:
+            path.append(begin)
 
         if lastLocal in taskPlace:
             time += G.get_edge_data(begin, begin)['peso']
@@ -60,5 +62,4 @@ def map():
             begin = menor
             taskPlace.remove(menor)
     path.append(menor)
-
     return render_template("map.html", time=round(time, 2), path=path)

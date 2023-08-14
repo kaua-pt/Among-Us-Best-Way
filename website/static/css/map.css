@@ -54,59 +54,55 @@
     color: black;
     font-family: Georgia, 'Times New Roman', Times, serif;
     font-size: large;
-    position: relative;
+    position: absolute;
 }
 
 .Reator{
     top:41%;
-    right: 7%;
+    left: 17%;
 }
 
-.TurbinaSuperior{
-    top:16%;
-    left: 1%;
-}
 .TurbinaInferior{
     top:65%;
-    left: 1%;
+    left: 25%;
 }
 .Cafeteria{
     top:17%;
-    left: 28%;
+    left: 52%;
+    background-color: tomato;
 }
 
 .Elétrica{
-    top: 60px;
-    left: 15%;
+    top: 60%;
+    left: 40%;
 }
 .Armazem{
-    top: 72px;
-    left: 26%;
+    top: 71%;
+    left: 50%;
 }
 .Alamédica{
     top:35%;
-    left: 15%;
-}
-.Admin{
-    top: 53px;
-    left: 36%;
-}
-.Escudos{
-    top: 70px;
-    left: 45%;
-}
-.Navegação{
-    top: 36px;
-    left: 58%;
-}
-.O2{
-    top: 35px;
     left: 39%;
 }
+.Admin{
+    top: 52%;
+    left: 60%;
+}
+.Escudos{
+    top: 70%;
+    left: 69%;
+}
+.Navegação{
+    top: 36%;
+    left: 83%;
+}
+.O2{
+    top: 35%;
+    left: 64%;
+}
 .Armas{
-    top: 16px;
-    left: 45%;
+    top: 16%;
+    left: 69%;
 }
 
 .div-show {  display: flex; }
-.div-hidden{ display:none }
