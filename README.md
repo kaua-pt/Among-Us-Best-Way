@@ -4,7 +4,7 @@
 
   <p align="center">
     Faça sua speedrun no Among Us! </br>
-    🚧 Ainda em construção 🚧
+    ✔️ Projeto finalizado ✔️
   </p>
 </div>
 
@@ -38,7 +38,11 @@ Caso você necessite de um caminho otimizado para a sua partida de Among Us é s
 <p>Imagem 3: Seleção das tasks</p>
 
 ### Será dado a sequência de onde você deve ir com o tempo que você irá gastar em segundos:</br>
-🚧 Tela sendo construída 🚧
+
+![Caminho](/website/static/img/Tela.PNG)
+
+<p>Imagem 4: Tela contendo o caminho</p>
+
 </br>
 ## :dash: Licença
 
